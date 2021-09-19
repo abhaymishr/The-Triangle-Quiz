@@ -1,55 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <title>Fun With traingles</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <header class="header-container">
-        <h1 class="main-title">Fun With Triangles</h1>
+      <h1 class="main-title">Fun With Triangles</h1>
 
-        <div class="list-container">
-            <ul class="no-bullets">
-         
-                <li class="list-item-inline"><a class="header-link" href="./quiz.html">Is Triangle? </a></li>
-                
-                <li class="list-item-inline"><a class="header-link" href="./quiz.html">Quiz </a></li>
-                <li class="list-item-inline"><a class="header-link" href="./hypotenuse.html">Hypotenuse</a></li>
-                <li class="list-item-inline"><a class="header-link"href="./area.html">Area Of Triangle</a></li>
-            </ul>
-        </div>
+      <div class="list-container">
+        <ul class="no-bullets">
+          <li class="list-item-inline">
+            <a class="header-link" href="./quiz.html">Is Triangle? </a>
+          </li>
+
+          <li class="list-item-inline">
+            <a class="header-link" href="./quiz.html">Quiz </a>
+          </li>
+          <li class="list-item-inline">
+            <a class="header-link" href="./hypotenuse.html">Hypotenuse</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="header-link" href="./area.html">Area Of Triangle</a>
+          </li>
+        </ul>
+      </div>
     </header>
 
-    <div class="input">
+    <div class="container">
+      <div class="input container">
         <label for="angle-one">Angle 1</label>
-        <input class="angle-one display" type="number">
+        <input class="angle-one display" type="number" />
 
         <label for="angle-two">Angle 2</label>
-        <input class="angle-two display" type="number">
+        <input class="angle-two display" type="number" />
 
         <label for="angle-three">Angle 3</label>
-        <input class="angle-three display" type="number">
+        <input class="angle-three display" type="number" />
+      </div>
 
+      <button class="is-triangle">Is Triangle</button>
+      <p class="result"></p>
     </div>
 
-    <button class="is-triangle">Is Triangle</button>
-    <p class=result></p>
+ 
+    <footer class="main-footer">
+      <div class="footer-content">
+        <p class="footer-text">Made with ❤ by Abhay <br /></p>
 
-    <footer>
-        <ul class="footer-ul">
-            <li>FaceBook </li>
-            <li>Instagram</li>
-            <li>GitHub</li>
-            <li>Twitter</li>
-            
-        </ul>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/abhaymishr/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/abhaymishr" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          
+        </div>
+      </div>
     </footer>
-
     <script src="./index.js"></script>
-    
-</body>
+  </body>
 </html>
