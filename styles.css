@@ -1,0 +1,38 @@
+.header-container{
+    background-color:lightgreen
+}
+.no-bullets{
+
+   list-style: none;
+   text-align: right;
+
+   
+    
+
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0.5rem;
+    text-align: right;
+}
+
+
+.main-title{
+    color: blue;
+}
+
+.header-link{
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+
+
+.footer-ul{
+    display: flex;
+    
+}
